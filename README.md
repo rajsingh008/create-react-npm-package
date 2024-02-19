@@ -9,11 +9,11 @@
     "name": "test-unw-react-package", # Your Package name  
     "version": "0.0.2",               # Your Package version 
     "description": "", 
-    "main": "./dist/index.js",        # Add folder called dist and add reference here 
-    "module": "./dist/index.mjs",     # Add These lines of code 
+    "main": "./dist/index.js",        # Add folder called dist at root and add reference here 
+    "module": "./dist/index.mjs",     
     "types": "./dist/index.d.ts", 
     "scripts": { 
-      "build": "tsup"                 # Replace value with tsup 
+      "build": "tsup"                 # Replace existing value with tsup 
     },<br>
     "keywords": [ 
       "test", 
