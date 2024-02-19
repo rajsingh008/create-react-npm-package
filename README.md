@@ -100,6 +100,30 @@ Once published open browser and check latest package deployed on your npmjs webs
 
 ![image](https://github.com/rajsingh008/package/assets/13310226/b57cfd04-8f4e-43ed-99c0-b18801669cca)
 
+# Publish npm package in  DevOps
+
+Add a .npmrc to your project, in the same directory as your package.json and add follwing code in the file
+
+    registry=***DevOps Artifacts registry  URL **
+                    
+    always-auth=true
+
+Run Follwing Command in terminal 
+ 
+    “npm install -g vsts-npm-auth --registry https://registry.npmjs.com --always-auth false” 
+
+Then, run vsts-npm-auth to get an Azure Artifacts token added to your user-level .npmrc file
+
+    vsts-npm-auth -config .npmrc
+  
+Now run Follwing command to publish your package to DevOps
+
+    npm publish 
+
+It will publish your package to DevOps artifacts
+
+![image](https://github.com/rajsingh008/create-react-npm-package/assets/13310226/9ca0a66e-c0c8-457b-83d2-feb9a6635301)
+
 
 
 
