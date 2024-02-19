@@ -3,7 +3,7 @@
 
 **Step1** : Create a new folder called “package” in your local drive  and open it in VS Code
 
-**Step2** : Run Following command in Terminal   “npm init -y “  to install package.config and update following values in package.config file
+**Step2** : Run Following command in Terminal   “npm init -y “  to install package.config and update following code in package.config file
  
     { 
     "name": "test-unw-react-package", # Your Package name  
@@ -31,7 +31,7 @@
 
 **Step4** : Now Run “npm install -D  typescript tsup” to install tsup
 
-**Step5** : Add 2 files named as  “tsconfig.json” and “tsup.config.ts” and add following values in each file 
+**Step5** : Add 2 files named as  “tsconfig.json” and “tsup.config.ts” and add following code in each file 
 
       tsconfig.json:
         {
@@ -66,7 +66,7 @@
 
 
 
-**Step6** : Add new folder “src” and new file “index.ts”.Now add basic code in index.ts file
+**Step6** : Add new folder “src” and new file “index.ts”.Now add simple code in index.ts file
 
     export function SayHello(){
     //
