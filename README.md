@@ -2,11 +2,11 @@
 
 This is a test package. So ignore it :)
 
-# Steps to create new npm package and publish it in to your orgnizations DevOps Artifacts or in npmjs
+# Instructions for creating a new npm package and publishing it to your organization's DevOps Artifacts or npmjs
 
 **Step1** : Create a new folder called “package” in your local drive  and open it in VS Code
 
-**Step2 **: Run Following command in Termonal  “npm init -y “ to install package.config and update following values in package.config file
+**Step2 **: Run Following command in Terminal   “npm init -y “  to install package.config and update following values in package.config file
 <br>
 {<br>
   "name": "test-unw-react-package", # Your Package name <br>
