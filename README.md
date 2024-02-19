@@ -92,9 +92,7 @@
         # Say hello to my first NPM package
         This is a test package. So ignore it :)
 
-**Step9** : Run "npm publish" command in terminal. For new user it will ask to run "add user" command which will open a registration process in npm.js website and once completed re-run the "npm publish" command.
-
-    Existing users can simply log in to access the website and publish their packages.
+**Step9** : To publish your package, execute the 'npm publish' command in your terminal. If you're a new user, you'll first need to run the 'npm adduser' command, which initiates a registration process on the  [npm.j](https://www.npmjs.com) website. Once you've completed the registration, you can then re-run the 'npm publish' command to publish your package..
 
 Once published open browser and check latest package deployed on your npmjs website .
 
