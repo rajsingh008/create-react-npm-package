@@ -3,7 +3,7 @@
 
 **Step1** : Create a new folder called “package” in your local drive  and open it in VS Code
 
-**Step2 **: Run Following command in Terminal   “npm init -y “  to install package.config and update following values in package.config file
+**Step2** : Run Following command in Terminal   “npm init -y “  to install package.config and update following values in package.config file
  
     { 
     "name": "test-unw-react-package", # Your Package name  
@@ -27,11 +27,11 @@
       }
     } 
 
-Step 3: Run command “npm install -g typescript” to install typescript as global level
+**Step3** : Run command “npm install -g typescript” to install typescript as global level
 
-Step 4: Now Run “npm install -D  typescript tsup” to install tsup
+**Step4** : Now Run “npm install -D  typescript tsup” to install tsup
 
-Step 5: Add 2 files named as  “tsconfig.json” and “tsup.config.ts” and add following values in each file 
+**Step5** : Add 2 files named as  “tsconfig.json” and “tsup.config.ts” and add following values in each file 
 
       tsconfig.json:
         {
@@ -66,15 +66,15 @@ Step 5: Add 2 files named as  “tsconfig.json” and “tsup.config.ts” and a
 
 
 
-Step 6: Add new folder “src” and new file “index.ts”.Now add basic code in index.ts file
+**Step6** : Add new folder “src” and new file “index.ts”.Now add basic code in index.ts file
 
     export function SayHello(){
     //
     }
 
-Step 7: Now run the command at terminal : “npm run build” this should create your package
+**Step7** : Now run the command at terminal : “npm run build” this should create your package
 
-Step 8: Add “.gitignore” , “.npmignore” and “README.md” files add following values into it
+**Step8**: Add “.gitignore” , “.npmignore” and “README.md” files add following values into it
  
     .gitignore:
         /dist
@@ -92,7 +92,7 @@ Step 8: Add “.gitignore” , “.npmignore” and “README.md” files add fo
         # Say hello to my first NPM package
         This is a test package. So ignore it :)
 
-Step 9: Run "npm publish" command in terminal. For new user it will ask to run "add user" command which will open a registration process in npm.js website and once completed re-run the "npm publish" command.
+**Step9** : Run "npm publish" command in terminal. For new user it will ask to run "add user" command which will open a registration process in npm.js website and once completed re-run the "npm publish" command.
 
     Existing users can simply log in to access the website and publish their packages.
 
