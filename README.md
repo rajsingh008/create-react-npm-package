@@ -80,19 +80,13 @@ Step 8: Add “.gitignore” , “.npmignore” and “README.md” files add fo
 .gitignore:<br>
     /dist<br>
     /node_modules<br>
-
-
-    .env<br>
+    .env
 <br>
 
 .npmignore:<br>
     /src<br>
     /node_modules<br>
-
-
-    .env<br>
-
-
+    .env
     tsconfig.json<br>
     tsup.config.ts<br>
 <br>
