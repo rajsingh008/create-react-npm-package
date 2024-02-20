@@ -96,7 +96,8 @@
 
 Once published open browser and check latest package deployed on your npmjs website .
 
-![image](https://github.com/rajsingh008/package/assets/13310226/b57cfd04-8f4e-43ed-99c0-b18801669cca)
+![image](https://github.com/rajsingh008/create-react-npm-package/assets/13310226/ef816ec4-2b70-4074-b983-b8920b04c4a9)
+
 
 # Publish npm package in  DevOps
 
