@@ -6,7 +6,7 @@
 **Step2** : Run Following command in Terminal   “npm init -y “  to install package.config and update following code in package.config file
  
     { 
-    "name": "test-unw-react-package", # Your Package name  
+    "name": "test-react-package", # Your Package name  
     "version": "0.0.2",               # Your Package version 
     "description": "", 
     "main": "./dist/index.js",        # Add folder called dist at root and add reference here 
